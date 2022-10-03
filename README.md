@@ -4,12 +4,12 @@
 2.	It helps companies to define and better understand their target audiences and ideal customers.
 3.	For ex, if I am a marketer, segmentation will allow me to identify the right market for my products and then I can target my marketing more effectively.
 Understanding the data:
-1.	For this project, I had taken a dataset which contains information about 9000 credit card holders with 18 behavioural columns. 
-2.	The aim is to segment them into different clusters so that we can give them recommendations (like saving plans, loans and wealth management) based on their interest.
-3.	Now, after understanding what we are going to do, we will start with data pre-processing, then we will do Exploratory Data analysis and finally we will build a model to classify customers into different clusters.
-4.	Starting with the project, I had imported the required libraries like numpy, pandas, matplotlib, seaborn and sklearn.
-5.	Then, I had loaded the dataset into a pandas dataframe and had a look at the dataframe to understand the data. 
-6.	I checked the shape of the data. It had 8950 entries and 18 columns.
+5.	For this project, I had taken a dataset which contains information about 9000 credit card holders with 18 behavioural columns. 
+6.	The aim is to segment them into different clusters so that we can give them recommendations (like saving plans, loans and wealth management) based on their interest.
+7.	Now, after understanding what we are going to do, we will start with data pre-processing, then we will do Exploratory Data analysis and finally we will build a model to classify customers into different clusters.
+8.	Starting with the project, I had imported the required libraries like numpy, pandas, matplotlib, seaborn and sklearn.
+9.	Then, I had loaded the dataset into a pandas dataframe and had a look at the dataframe to understand the data. 
+10.	I checked the shape of the data. It had 8950 entries and 18 columns.
 Data Pre-Processing:
 1.	I dropped the column ‘customer_id’ as it has no significance.
 2.	Then I checked if the dataframe has any missing values with isnull().sum(). I found 2 columns had missing values. So, I filled the missing values with their respective column mean.
